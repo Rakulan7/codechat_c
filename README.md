@@ -5,6 +5,7 @@ Ce projet consiste en la création d'une messagerie chiffrée en langage C, util
 
 ## Fonctionnalités
 1. **Inscription et Connexion :** Les utilisateurs peuvent créer un compte avec un identifiant unique et un mot de passe sécurisé. Ils peuvent également se connecter à leur compte existant.
+   - Création d'une base de données avec mysql sur un serveur distant pour la création et connexion des utilisateurs.
 
 2. **Chiffrement des Messages avec RSA :** Les messages envoyés par les utilisateurs sont chiffrés à l'aide de l'algorithme de chiffrement RSA, assurant une sécurité robuste.
 
