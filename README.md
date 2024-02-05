@@ -16,4 +16,4 @@ Ce projet consiste en la création d'une messagerie chiffrée en langage C, util
 ## Utilisation
 1. **Compilation :** Compilez le programme en utilisant un compilateur C standard. Par exemple, avec GCC, utilisez la commande suivante :
    ```bash
-   gcc main.c -o secure_messaging -lSDL 
+   make
