@@ -14,8 +14,25 @@ Ce projet consiste en la création d'une messagerie chiffrée en langage C, util
 4. **Liste de Contacts :** Les utilisateurs peuvent gérer leur liste de contacts, ajoutant ainsi une couche de convivialité à la messagerie.
 
 ## Utilisation
-1. **Compilation :** 
+1. **Installation :** Avant de lancer la compilation il faut installer quelque bibliothèque :
+   - Sur Linux :
+   Pour mysql :
+   ```bash
+   sudo apt-get install libmysqlclient-dev
+   ```
 
-- Compilez le programme Utilisez la commande suivante :
+   - Sur CentOS/RHEL :
+   Pour mysql :
+   ```bash
+   sudo yum install mysql-community-devel
+   ```
+
+   - Sur macOS avec Homebrew :
+   Pour mysql :
+   ```bash
+   brew install mysql-client
+   ```
+
+1. **Compilation :** Compilez le programme Utilisez la commande suivante :
    ```bash
    make
