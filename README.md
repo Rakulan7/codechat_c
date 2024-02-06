@@ -16,22 +16,22 @@ Ce projet consiste en la création d'une messagerie chiffrée en langage C, util
 ## Utilisation
 1. **Installation :** Avant de lancer la compilation il faut installer quelque bibliothèque :
    - Sur Linux :
-   Pour mysql :
-   ```bash
-   sudo apt-get install libmysqlclient-dev
-   ```
+      - Pour mysql :
+      ```bash
+      sudo apt-get install libmysqlclient-dev
+      ```
 
    - Sur CentOS/RHEL :
-   Pour mysql :
-   ```bash
-   sudo yum install mysql-community-devel
-   ```
+      - Pour mysql :
+      ```bash
+      sudo yum install mysql-community-devel
+      ```
 
    - Sur macOS avec Homebrew :
-   Pour mysql :
-   ```bash
-   brew install mysql-client
-   ```
+      - Pour mysql :
+      ```bash
+      brew install mysql-client
+      ```
 
 1. **Compilation :** Compilez le programme Utilisez la commande suivante :
    ```bash
