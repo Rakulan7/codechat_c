@@ -33,6 +33,6 @@ Ce projet consiste en la création d'une messagerie chiffrée en langage C, util
       brew install mysql-client
       ```
 
-1. **Compilation :** Compilez le programme Utilisez la commande suivante :
+1. **Compilation :** Pour compiler le programme utilisez la commande suivante :
    ```bash
    make

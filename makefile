@@ -1,8 +1,8 @@
 CC=gcc
 CFLAGS=-Wall -Wextra -std=c99
-LDFLAGS=-lmysqlclient
+LDFLAGS=-lmysqlclient -lssl -lcrypto
 TARGET=codechat
-SRCS=compte.c database/database.c
+SRCS=compte/compte.c database/database.c
 OBJS=$(SRCS:.c=.o)
 
 .PHONY: all clean
