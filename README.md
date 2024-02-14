@@ -1,7 +1,7 @@
 # Projet de Messagerie Chiffrée en C avec RSA
 
 ## Description du Projet
-Ce projet consiste en la création d'une messagerie chiffrée en langage C, utilisant l'algorithme de chiffrement RSA. L'objectif principal est de permettre à deux utilisateurs de communiquer de manière sécurisée en chiffrant leurs messages. Le programme prend en charge le chiffrement et le déchiffrement des messages à l'aide de la cryptographie asymétrique RSA.
+Ce projet consiste en la création d'une messagerie chiffrée en langage C, utilisant l'algorithme de chiffrement RSA et Diffie-Helman. L'objectif principal est de permettre à deux utilisateurs de communiquer de manière sécurisée en chiffrant leurs messages. Le programme prend en charge le chiffrement et le déchiffrement des messages à l'aide de la cryptographie asymétrique RSA.
 
 ## Fonctionnalités
 1. **Inscription et Connexion :** Les utilisateurs peuvent créer un compte avec un identifiant unique et un mot de passe sécurisé. Ils peuvent également se connecter à leur compte existant.

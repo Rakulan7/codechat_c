@@ -2,7 +2,7 @@ CREATE TABLE user_c(
    id_user VARCHAR(50),
    username VARCHAR(50),
    password VARCHAR(255),
-   clepublique INT,
+   clepublique TEXT,
    PRIMARY KEY(id_user)
 );
 
