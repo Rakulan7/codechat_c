@@ -6,6 +6,5 @@
 
 MYSQL *database_connect();
 
-MYSQL_RES *query(MYSQL *conn, const char *query_string);
 
 #endif

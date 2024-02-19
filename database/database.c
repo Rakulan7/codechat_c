@@ -16,20 +16,6 @@ MYSQL *database_connect() {
         return NULL;
     }
 
+    printf("Connexion à la base de données réussie\n");
     return conn;
-}
-
-MYSQL_RES *query(MYSQL *conn, const char *query_string) {
-    if (mysql_query(conn, query_string)) {
-        fprintf(stderr, "Erreur lors de l'exécution de la requête : %s\n", mysql_error(conn));
-        return NULL;
-    }
-    
-    MYSQL_RES *result = mysql_store_result(conn);
-    if (result == NULL) {
-        fprintf(stderr, "Aucun résultat retourné\n");
-        return NULL;
-    }
-    
-    return result;
 }
